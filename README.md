@@ -1,7 +1,8 @@
 # Context and goal
 
 I have done this application for an interview. This application fetchs list of movies from https://www.themoviedb.org/ API.
-This app is made to be simple and may help people knowing React & Redux to get into creating mobile apps. It's made with React Native, coupled with some extra nice packages to handle routing, dataflow and UI elements.
+It's made with React Native, coupled with some extra nice packages to handle routing, dataflow and UI elements.
+Redx has be used for state management.
 
 ## Main technologies used
 
@@ -52,4 +53,16 @@ yarn global add react-native-cli
 ```
 react-native run-android
 ```
+### IOS steps (This App is not tested in ios devices)
 
+- Extra step required 
+
+```
+cd ios && pod install && cd ..
+```
+
+- Then, run the project in executing on your project folder:
+
+```
+react-native run-ios
+```
